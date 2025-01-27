@@ -95,30 +95,6 @@
             timeout-ms = <20>;
         };
 
-        //LangRu {
-        //    bindings = <&kp LG(F11)>;
-        //    key-positions = <0 1>;
-        //    timeout-ms = <20>;
-        //};
-
-        //LangUs {
-        //   bindings = <&kp LG(F12)>;
-        //    key-positions = <10 11>;
-        //    timeout-ms = <20>;
-        //};
-
-        //LangRuL {
-        //    bindings = <&kp LG(F11)>;
-        //    key-positions = <36 38>;
-        //    timeout-ms = <20>;
-        //};
-
-        //LangUsL {
-        //    bindings = <&kp LG(F12)>;
-        //    key-positions = <39 41>;
-        //    timeout-ms = <20>;
-        //};
-
         TildaSign {
             bindings = <&kp TILDE>;
             key-positions = <0 12>;

@@ -5,7 +5,10 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: v0.3          # было main — ZMK main уехал на Zephyr 4.1 / HWMv2,
+                              # где нет ни nice_nano_v2, ни старого формата шилдов.
+                              # Донгловый шилд в config/boards/shields/corne/ — старого стиля,
+                              # поэтому нужен ZMK до 4.1.
       import: app/west.yml
   self:
     path: config
